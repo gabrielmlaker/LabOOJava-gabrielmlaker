@@ -10,21 +10,17 @@ public class Cliente {
      * Nome completo do cliente.
      */
     private String nome;
-    
+
     /**
      * Número de CPF(Cadastro de Pessoa Física) do cliente.
      */
     private String cpf;
 
-    public Cliente(String nome, String cpf) {
-        this.nome = nome;
-        this.cpf = cpf;
+    public Cliente() {
+        this.nome = "Fulano";
+        this.cpf = "123456789011";
     }
 
-    public Cliente() {
-        
-    }
-   
     public String getNome() {
         return nome;
     }
